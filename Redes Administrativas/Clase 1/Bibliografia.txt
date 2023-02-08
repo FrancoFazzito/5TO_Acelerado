@@ -1,0 +1,129 @@
+Unidad 1: RED WAN;
+
+Bibliografía:
+
+Comunicación de redes y computadoras
+
+William Stallings, Capítulo 1 (completo).
+
+Redes de computadoras e Internet, Fred Halsall, Capítulo 1, ítem 1.5.
+
+Comunicación de datos, redes de computadoras y circuitos abiertos
+
+Fred Halsall, Capítulo 1 (completo).
+
+Redes e Internet de alta velocidad - Rendimiento y calidad de servicio William
+
+Stallings, Capítulo 2, ítem 2.1, 2.2 y 2.3.
+
+
+
+Unidad II: REDES OPTICAS DE TRANSPORTE
+
+Bibliografía:
+
+Comunicación de redes y computadoras, William Stallings, Capítulo 2 (completo)
+
+Redes de computadoras e Internet, Fred Halsall, Capítulo 1, ítem 1.4
+
+Redes e Internet de alta velocidad - Rendimiento y calidad de servicio, William
+
+Stallings, Capítulo 11 (completo).
+
+Comunicación de datos, redes de computadoras y circuitos abiertos, Fred
+
+Halsall, Capítulo 10, Ítem 10.1 y 10.2.
+
+
+
+Unidad 3: REDES DE CONMUTACION
+
+Bibliografía:
+
+
+
+Comunicación de redes y computadoras, William Stallings, Capítulo 11 (completo)
+
+Redes e Internet de alta velocidad - Rendimiento y calidad de servicio, William
+
+Stallings, Capítulo 5 (completo)
+
+
+
+Comunicación de datos, redes de computadoras y circuitos abiertos, Fred
+
+Halsall, Capítulo 10, ítem 10.6.
+
+
+
+Comunicación de datos, redes de computadoras y circuitos abiertos, Fred
+
+Halsall, Capítulo 10, ítem 10.7.
+
+
+
+Comunicación de redes y computadoras, William Stallings, Capítulo 10, ítem 10,7.
+
+Comunicación de datos, redes de computadoras y circuitos abiertos, Fred
+
+Halsall, Capítulo 8, ítems 2 y 3.
+
+
+
+Comunicación de redes y computadoras, William Stallings, Capítulo 10, ítem 10.8
+
+Redes e Internet de alta velocidad - Rendimiento y calidad de servicio, William
+
+Stallings, Capítulo 4 (completo); Capítulo 10, ítem 10.5.
+
+
+
+Unidad 4: PROTOCOLOS DE ENRUTAMIENTO Y TRANSPORTE
+
+Bibliografía:
+
+Redes e Internet de alta velocidad - Rendimiento y calidad de servicio, William
+
+Stallings, Capítulo 18, ítem 18.2.
+
+
+
+Unidad 5: REDES DE ACCESO RESIDENCIAL
+
+Bibliografía:
+
+Comunicación de redes y computadoras, William Stallings, Capítulo 19, ítems 19.3
+
+y 19.4.
+
+Redes de computadoras e Internet, Fred Halsall, Capítulo 6, ítems 6.7.1 y 6.7.2.
+
+Redes e Internet de alta velocidad - Rendimiento y calidad de servicio, William
+
+Stallings, Capítulo 17, ítems 17.1 y 17.4.
+
+
+
+Unidad 6: REDES INALÁMBRICAS DE ÁREA AMPLIA
+
+Bibliografía:
+
+Redes y servicios de telecomunicaciones Huidobro Moya, José Manuel..-- Capítulo
+
+5
+
+
+
+Unidad 7: REDES DE NUEVA GENERACION (NGN)
+
+Bibliografía:
+
+SIP: Session Initiation Protocol. J. Rosenberg, H.Schulzrinne, et al. RFC 3261,
+
+IETF. Junio 2002. http://www.ietf.org/rfc/rfc3261.txt?number=3261
+
+ITU-T Recommendation H.323 Version 5. Julio 2003
+
+(http://www.itu.int/rec/recommendation.asp?type=items&lang=E&parent=T-RECH.
+
+323-200307-I
