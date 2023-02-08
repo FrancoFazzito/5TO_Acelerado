@@ -1,0 +1,42 @@
+May 03 21:52:20.356 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 03 21:52:20.357 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63117.
+May 03 21:52:20.387 HYPERVISOR: exec_cmd: hypervisor version 
+May 03 21:52:20.392 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Navegador\GNS3\projects\frame relay basico\project-files\dynamips 
+May 03 21:52:20.393 GENERAL: working_dir=C:\Users\Navegador\GNS3\projects\frame relay basico\project-files\dynamips
+May 03 21:52:20.398 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+May 03 21:52:20.399 VM: VM R2 created.
+May 03 21:52:20.403 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 2001 
+May 03 21:52:20.409 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+May 03 21:52:20.413 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 21:52:20.418 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+May 03 21:52:20.424 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+May 03 21:52:20.429 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+May 03 21:52:20.434 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+May 03 21:52:20.441 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Navegador/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+May 03 21:52:20.446 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 21:52:20.451 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-4T+ 
+May 03 21:52:20.457 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+May 03 21:52:20.463 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+May 03 21:54:52.635 HYPERVISOR: exec_cmd: nio create_udp udp-640bd6ee-f619-43ea-b28c-dbf601cd4628 10000 127.0.0.1 10001 
+May 03 21:54:52.652 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-640bd6ee-f619-43ea-b28c-dbf601cd4628 
+May 03 21:54:52.662 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 21:55:31.160 HYPERVISOR: exec_cmd: nio create_udp udp-8d41ec7b-8223-4f96-a4ea-d5d9f6c1f3b2 10005 127.0.0.1 10004 
+May 03 21:55:31.171 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-8d41ec7b-8223-4f96-a4ea-d5d9f6c1f3b2 
+May 03 21:55:31.177 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 21:57:16.013 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+May 03 21:57:16.021 HYPERVISOR: exec_cmd: vm set_ghost_file R2 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+May 03 21:57:16.026 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 21:57:16.032 HYPERVISOR: exec_cmd: vm start R2 
+May 03 22:01:54.760 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 22:01:54.781 HYPERVISOR: exec_cmd: vm stop R2 
+May 03 22:01:54.939 VM: VM R2 shutdown.
+May 03 22:01:54.946 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 22:02:16.369 HYPERVISOR: exec_cmd: vm rename R2 R1 
+May 03 22:03:01.071 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 03 22:03:01.747 HYPERVISOR: exec_cmd: vm get_status R1 
+May 03 22:03:01.769 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 03 22:03:01.784 HYPERVISOR: exec_cmd: vm delete R1 
+May 03 22:03:01.784 VM: VM R1 destroyed.
+May 03 22:03:01.803 HYPERVISOR: exec_cmd: hypervisor stop 
+May 03 22:03:02.305 HYPERVISOR: Stopped.
+May 03 22:03:02.305 GENERAL: reset done.

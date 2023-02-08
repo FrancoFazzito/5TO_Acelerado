@@ -1,0 +1,40 @@
+May 03 21:52:22.366 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 03 21:52:22.367 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63119.
+May 03 21:52:22.890 HYPERVISOR: exec_cmd: hypervisor version 
+May 03 21:52:22.901 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Navegador\GNS3\projects\frame relay basico\project-files\dynamips 
+May 03 21:52:22.901 GENERAL: working_dir=C:\Users\Navegador\GNS3\projects\frame relay basico\project-files\dynamips
+May 03 21:52:22.911 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+May 03 21:52:22.912 VM: VM R3 created.
+May 03 21:52:22.917 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 2002 
+May 03 21:52:22.922 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+May 03 21:52:22.928 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 21:52:22.934 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+May 03 21:52:22.940 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+May 03 21:52:22.944 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+May 03 21:52:22.949 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+May 03 21:52:22.955 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Navegador/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+May 03 21:52:22.960 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 21:52:22.966 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-4T+ 
+May 03 21:52:22.971 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+May 03 21:52:22.978 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+May 03 21:54:58.087 HYPERVISOR: exec_cmd: nio create_udp udp-ab91bd03-534b-49bc-a352-1e86ba701fe2 10003 127.0.0.1 10002 
+May 03 21:54:58.100 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 1 udp-ab91bd03-534b-49bc-a352-1e86ba701fe2 
+May 03 21:54:58.110 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 21:56:48.358 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+May 03 21:56:48.363 HYPERVISOR: exec_cmd: vm set_ghost_file R3 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+May 03 21:56:48.368 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 21:56:48.373 HYPERVISOR: exec_cmd: vm start R3 
+May 03 22:01:54.754 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 22:01:54.778 HYPERVISOR: exec_cmd: vm stop R3 
+May 03 22:01:54.852 VM: VM R3 shutdown.
+May 03 22:01:54.857 HYPERVISOR: exec_cmd: vm extract_config R3 
+May 03 22:02:21.378 HYPERVISOR: exec_cmd: vm rename R3 R2 
+May 03 22:02:21.385 HYPERVISOR: exec_cmd: vm set_config R2 configs/i3_startup-config.cfg 
+May 03 22:03:01.079 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 22:03:01.759 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 22:03:01.774 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 22:03:01.793 HYPERVISOR: exec_cmd: vm delete R2 
+May 03 22:03:01.793 VM: VM R2 destroyed.
+May 03 22:03:01.809 HYPERVISOR: exec_cmd: hypervisor stop 
+May 03 22:03:02.103 HYPERVISOR: Stopped.
+May 03 22:03:02.103 GENERAL: reset done.

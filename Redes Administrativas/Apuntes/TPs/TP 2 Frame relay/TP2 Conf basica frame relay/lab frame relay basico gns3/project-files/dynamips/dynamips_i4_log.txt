@@ -1,0 +1,21 @@
+May 03 21:55:10.584 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 03 21:55:10.584 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63127.
+May 03 21:55:10.601 HYPERVISOR: exec_cmd: hypervisor version 
+May 03 21:55:10.607 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Navegador\GNS3\projects\frame relay basico\project-files\dynamips 
+May 03 21:55:10.608 GENERAL: working_dir=C:\Users\Navegador\GNS3\projects\frame relay basico\project-files\dynamips
+May 03 21:55:10.613 HYPERVISOR: exec_cmd: ethsw create SW1 
+May 03 21:55:23.615 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-8b3ae45d-621b-441b-9108-663a45d7f61a \Device\NPF_{05A8E8D8-4C34-4801-B950-27B657D4B3A2} 
+May 03 21:55:23.737 HYPERVISOR: exec_cmd: ethsw add_nio SW1 generic_ethernet-8b3ae45d-621b-441b-9108-663a45d7f61a 
+May 03 21:55:23.748 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 generic_ethernet-8b3ae45d-621b-441b-9108-663a45d7f61a 1 
+May 03 21:55:31.148 HYPERVISOR: exec_cmd: nio create_udp udp-31f1e401-108f-4286-9869-23fd3f399609 10004 127.0.0.1 10005 
+May 03 21:55:31.167 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-31f1e401-108f-4286-9869-23fd3f399609 
+May 03 21:55:31.196 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-31f1e401-108f-4286-9869-23fd3f399609 1 
+May 03 21:57:41.529 HYPERVISOR: exec_cmd: ethsw remove_nio SW1 generic_ethernet-8b3ae45d-621b-441b-9108-663a45d7f61a 
+May 03 21:57:41.573 HYPERVISOR: exec_cmd: nio delete generic_ethernet-8b3ae45d-621b-441b-9108-663a45d7f61a 
+May 03 21:57:49.340 HYPERVISOR: exec_cmd: nio create_udp udp-bddbee87-1323-4448-88c1-22a93c736ade 10006 127.0.0.1 10007 
+May 03 21:57:49.366 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-bddbee87-1323-4448-88c1-22a93c736ade 
+May 03 21:57:49.385 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-bddbee87-1323-4448-88c1-22a93c736ade 1 
+May 03 22:03:01.064 HYPERVISOR: exec_cmd: ethsw delete SW1 
+May 03 22:03:01.122 HYPERVISOR: exec_cmd: hypervisor stop 
+May 03 22:03:01.601 HYPERVISOR: Stopped.
+May 03 22:03:01.601 GENERAL: reset done.
